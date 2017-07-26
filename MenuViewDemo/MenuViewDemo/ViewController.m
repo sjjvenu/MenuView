@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SCLearnHistoryViewController.h"
 #import "SCMultiMediaViewController.h"
-#import "SCMultiMediaViewController2.h"
+#import "SCMultiMediaViewControllerEx.h"
 
 @interface ViewController ()
 
@@ -39,7 +39,7 @@
 }
 
 - (IBAction)btnMenuExClick:(id)sender {
-    SCMultiMediaViewController2 *vc = [[SCMultiMediaViewController2 alloc] init];
+    SCMultiMediaViewControllerEx *vc = [[SCMultiMediaViewControllerEx alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

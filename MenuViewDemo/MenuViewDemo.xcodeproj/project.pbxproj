@@ -26,8 +26,8 @@
 		2F13627E1F271DB600D914CD /* SCMultiMediaBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13627B1F271DB600D914CD /* SCMultiMediaBaseViewController.m */; };
 		2F13627F1F271DB600D914CD /* SCMultiMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13627D1F271DB600D914CD /* SCMultiMediaViewController.m */; };
 		2F1362821F271ED700D914CD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1362811F271ED700D914CD /* TestViewController.m */; };
-		2F1362851F27214400D914CD /* SCMultiMediaBaseViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1362841F27214400D914CD /* SCMultiMediaBaseViewController2.m */; };
-		2F13628C1F2722C400D914CD /* SCMultiMediaViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13628B1F2722C400D914CD /* SCMultiMediaViewController2.m */; };
+		2F1362851F27214400D914CD /* SCMultiMediaBaseViewControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1362841F27214400D914CD /* SCMultiMediaBaseViewControllerEx.m */; };
+		2F13628C1F2722C400D914CD /* SCMultiMediaViewControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13628B1F2722C400D914CD /* SCMultiMediaViewControllerEx.m */; };
 		2F13629F1F2726BE00D914CD /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1362981F2726BE00D914CD /* back@2x.png */; };
 		2F1362A01F2726BE00D914CD /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1362991F2726BE00D914CD /* back@3x.png */; };
 		2F1362A11F2726BE00D914CD /* back_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F13629A1F2726BE00D914CD /* back_p@2x.png */; };
@@ -76,10 +76,10 @@
 		2F13627D1F271DB600D914CD /* SCMultiMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMultiMediaViewController.m; sourceTree = "<group>"; };
 		2F1362801F271ED700D914CD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		2F1362811F271ED700D914CD /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		2F1362831F27214400D914CD /* SCMultiMediaBaseViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMultiMediaBaseViewController2.h; sourceTree = "<group>"; };
-		2F1362841F27214400D914CD /* SCMultiMediaBaseViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMultiMediaBaseViewController2.m; sourceTree = "<group>"; };
-		2F13628A1F2722C400D914CD /* SCMultiMediaViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMultiMediaViewController2.h; sourceTree = "<group>"; };
-		2F13628B1F2722C400D914CD /* SCMultiMediaViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMultiMediaViewController2.m; sourceTree = "<group>"; };
+		2F1362831F27214400D914CD /* SCMultiMediaBaseViewControllerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMultiMediaBaseViewControllerEx.h; sourceTree = "<group>"; };
+		2F1362841F27214400D914CD /* SCMultiMediaBaseViewControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMultiMediaBaseViewControllerEx.m; sourceTree = "<group>"; };
+		2F13628A1F2722C400D914CD /* SCMultiMediaViewControllerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMultiMediaViewControllerEx.h; sourceTree = "<group>"; };
+		2F13628B1F2722C400D914CD /* SCMultiMediaViewControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMultiMediaViewControllerEx.m; sourceTree = "<group>"; };
 		2F1362981F2726BE00D914CD /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		2F1362991F2726BE00D914CD /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
 		2F13629A1F2726BE00D914CD /* back_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_p@2x.png"; sourceTree = "<group>"; };
@@ -132,10 +132,10 @@
 				2F13627D1F271DB600D914CD /* SCMultiMediaViewController.m */,
 				2F1362801F271ED700D914CD /* TestViewController.h */,
 				2F1362811F271ED700D914CD /* TestViewController.m */,
-				2F1362831F27214400D914CD /* SCMultiMediaBaseViewController2.h */,
-				2F1362841F27214400D914CD /* SCMultiMediaBaseViewController2.m */,
-				2F13628A1F2722C400D914CD /* SCMultiMediaViewController2.h */,
-				2F13628B1F2722C400D914CD /* SCMultiMediaViewController2.m */,
+				2F1362831F27214400D914CD /* SCMultiMediaBaseViewControllerEx.h */,
+				2F1362841F27214400D914CD /* SCMultiMediaBaseViewControllerEx.m */,
+				2F13628A1F2722C400D914CD /* SCMultiMediaViewControllerEx.h */,
+				2F13628B1F2722C400D914CD /* SCMultiMediaViewControllerEx.m */,
 				2F1362481F271AC900D914CD /* Main.storyboard */,
 				2F13624B1F271AC900D914CD /* Assets.xcassets */,
 				2F13624D1F271AC900D914CD /* LaunchScreen.storyboard */,
@@ -306,8 +306,8 @@
 				2F1362791F271C3600D914CD /* SCLearnHistoryViewController.m in Sources */,
 				2F1362761F271BB600D914CD /* MenuViewBtn.m in Sources */,
 				2F1362441F271AC900D914CD /* AppDelegate.m in Sources */,
-				2F13628C1F2722C400D914CD /* SCMultiMediaViewController2.m in Sources */,
-				2F1362851F27214400D914CD /* SCMultiMediaBaseViewController2.m in Sources */,
+				2F13628C1F2722C400D914CD /* SCMultiMediaViewControllerEx.m in Sources */,
+				2F1362851F27214400D914CD /* SCMultiMediaBaseViewControllerEx.m in Sources */,
 				2F1362741F271BB600D914CD /* FloodView.m in Sources */,
 				2F1362751F271BB600D914CD /* MenuView.m in Sources */,
 				2F1362701F271BB600D914CD /* NSString+Extention.m in Sources */,
@@ -471,6 +471,7 @@
 				2F1362551F271AC900D914CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

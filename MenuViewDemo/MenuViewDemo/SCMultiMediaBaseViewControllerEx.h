@@ -1,5 +1,5 @@
 //
-//  SCMultiMediaBaseViewController2.h
+//  SCMultiMediaBaseViewControllerEx.h
 //  MenuViewDemo
 //
 //  Created by tdx on 2017/7/25.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MenuView.h"
 
-@interface SCMultiMediaBaseViewController2 : UIViewController
+@interface SCMultiMediaBaseViewControllerEx : UIViewController
 
 @property (nonatomic,assign)MenuViewStyle style;
 @property (nonatomic,strong) NSMutableArray *menuTitles;

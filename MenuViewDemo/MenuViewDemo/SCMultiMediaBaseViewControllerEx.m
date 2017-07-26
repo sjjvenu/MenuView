@@ -1,18 +1,18 @@
 //
-//  SCMultiMediaBaseViewController2.m
+//  SCMultiMediaBaseViewControllerEx.m
 //  MenuViewDemo
 //
 //  Created by tdx on 2017/7/25.
 //  Copyright © 2017年 sjjvenu. All rights reserved.
 //
 
-#import "SCMultiMediaBaseViewController2.h"
+#import "SCMultiMediaBaseViewControllerEx.h"
 #import "UIView+Extension.h"
 #import "ZTPage.h"
 #import "TestViewController.h"
 #import "MenuViewBtn.h"
 
-@interface SCMultiMediaBaseViewController2 ()<UIScrollViewDelegate,MenuViewDelegate,NSCacheDelegate>
+@interface SCMultiMediaBaseViewControllerEx ()<UIScrollViewDelegate,MenuViewDelegate,NSCacheDelegate>
 @property (nonatomic,weak)MenuView *menuView;
 @property (nonatomic,weak)UIButton *moreButton;
 @property (nonatomic,strong)UIScrollView *detailScrollView;
@@ -30,7 +30,7 @@
 
 @end
 
-@implementation SCMultiMediaBaseViewController2
+@implementation SCMultiMediaBaseViewControllerEx
 
 #pragma mark Lazy load
 - (NSArray *)titles

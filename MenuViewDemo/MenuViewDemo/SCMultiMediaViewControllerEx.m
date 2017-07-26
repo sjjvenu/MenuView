@@ -1,21 +1,21 @@
 //
-//  SCMultiMediaViewController2ViewController.m
+//  SCMultiMediaViewControllerExViewController.m
 //  MenuViewDemo
 //
 //  Created by tdx on 2017/7/25.
 //  Copyright © 2017年 sjjvenu. All rights reserved.
 //
 
-#import "SCMultiMediaViewController2.h"
+#import "SCMultiMediaViewControllerEx.h"
 #import "TestViewController.h"
 #import "EditViewController.h"
 #import "MenuViewBtn.h"
 
-@interface SCMultiMediaViewController2 ()
+@interface SCMultiMediaViewControllerEx ()
 
 @end
 
-@implementation SCMultiMediaViewController2
+@implementation SCMultiMediaViewControllerEx
 
 - (void)viewDidLoad
 {
